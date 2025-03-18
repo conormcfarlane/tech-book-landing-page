@@ -4,7 +4,7 @@
     font-family: 'Martian Mono';
     font-style: normal;
     font-weight: 400;
-    src: url('/starter-code/assets/fonts/martian-mono/static/martian-mono-v3-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('fonts/martian-mono/static/martian-mono-v3-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
   /* martian-mono-600 - latin */
@@ -13,7 +13,7 @@
     font-family: 'Martian Mono';
     font-style: normal;
     font-weight: 600;
-    src: url('/starter-code/assets/fonts/martian-mono/static/martian-mono-v3-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('fonts/martian-mono/static/martian-mono-v3-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
   /* martian-mono-800 - latin */
@@ -22,7 +22,7 @@
     font-family: 'Martian Mono';
     font-style: normal;
     font-weight: 800;
-    src: url('/starter-code/assets/fonts/martian-mono/static/martian-mono-v3-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('fonts/martian-mono/static/martian-mono-v3-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
   /* inter-regular - latin */
@@ -31,7 +31,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    src: url('/starter-code/assets/fonts/inter/static/inter-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('fonts/inter/static/inter-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
   /* inter-600 - latin */
@@ -40,7 +40,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    src: url('/starter-code/assets/fonts/inter/static/inter-v18-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('fonts/inter/static/inter-v18-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
   /* inter-800 - latin */
@@ -49,7 +49,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    src: url('/starter-code/assets/fonts/inter/static/inter-v18-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('fonts/inter/static/inter-v18-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
 
@@ -168,7 +168,7 @@ header img{
     border-radius: 0;
 }
 .background-container{
-    background-image: url('/starter-code/assets/images/pattern-light-bg.svg'),
+    background-image: url('images/pattern-light-bg.svg'),
         radial-gradient(
             circle at bottom right,
             rgba(156, 201, 218, 0.3) 10% ,
@@ -368,7 +368,7 @@ footer{
     padding-top: 2.5rem;
     background-color: var(--clr--Neutral900);
     width: 100%;
-    background-image: url('/starter-code/assets/images/pattern-dark-bg.svg');
+    background-image: url('images/pattern-dark-bg.svg');
     border-radius: 10px 10px 0 0;
 
     button{
@@ -570,7 +570,7 @@ footer{
         flex-direction: column;
         gap: 4rem;
         margin-bottom: 7.5rem;
-        background-image: url('/starter-code/assets/images/pattern-light-bg.svg'),
+        background-image: url('images/pattern-light-bg.svg'),
         radial-gradient(
             circle at bottom right,
             rgba(156, 201, 218, 0.3) 10% ,
